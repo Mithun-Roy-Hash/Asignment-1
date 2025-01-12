@@ -49,23 +49,6 @@
     font-size: 32px;
 }
 
-.opinion-title{
-    font-weight: 600px;
-    font-size: 20px;
-}
-
-.opinion-description{
-    font-weight: 600px;
-    font-size: 16px;
-}
-
-.opinion-option{
-    font-weight: 500px;
-    font-size: 16px;
-   
-}
-
-
 .btn{
     font-weight: 600px;
     font-size: 18px;
@@ -258,6 +241,72 @@ nav ul li{
     color: #1f1e1e;
 }
 /* vision section end here */
+
+
+
+
+
+
+/* opinion section start here */
+
+.opinion-container{
+    margin-bottom: 80px;
+}
+
+.opinion-container h2{
+    margin-bottom: 24px;
+}
+
+.opinion-table{
+    padding: 32px;
+    background-color: #f7f1f1;
+    border-radius: 16px;
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 1216px;
+}
+
+
+table, tr, th, td{
+    border: 1px solid rgb(199, 195, 195);
+}
+
+.table-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.opinion-title{
+    font-weight: 600px;
+    font-size: 20px;
+    margin: 24px 0 24px 0;
+}
+
+
+
+.opinion-description{
+    font-weight: 600px;
+    font-size: 16px;
+    padding: 37px 250px 37px 24px;
+}
+
+.opinion-option{
+    font-weight: 500px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px 6px;
+    border: 1px solid rgb(175, 172, 172);
+    border-radius: 4px;
+    background-color: #C6E4D6;
+   
+}
+
+
+/* opinion section end here */
 
 
 

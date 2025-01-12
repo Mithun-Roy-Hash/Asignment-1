@@ -33,12 +33,15 @@
 .all-page-sub-title{
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 12px;
+    color: #1d1c1c;
 }
 
 .all-description{
     font-weight: 400px;
     font-size: 16px;
     line-height: 24px;
+    color: #292929;
 }
 
 .news-title{
@@ -156,5 +159,113 @@ nav ul li{
 
 /* navbar end here */
 
+
+
+
+
+
+
+/* main section start here */
+
+
+/* pillars section start here */
+
+.pillars-container{
+    margin-bottom: 80px;
+}
+
+.pillars-container h2{
+    margin-bottom: 32px;
+}
+
+.pillars-all-card{
+    display: flex;
+    gap: 24px;
+}
+
+.pillars-card{
+    padding: 24px;
+    border: 1px solid #ebdcdc;
+    border-radius: 16px;
+}
+
+
+.card-icon{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+/* pillars section end here */
+
+
+
+
+/* vision section start here */
+
+.vision-container{
+    margin-bottom: 80px;
+}
+
+.p-position{
+    margin: 24px 0 32px 0;
+}
+
+
+.vision-all-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-card{
+    padding: 32px;
+    background-color: #d7deeb;
+    border-radius: 16px;
+}
+
+.btn-1{
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #5490F5;
+    margin-top: 24px;
+    border: none;
+}
+
+.btn-2{
+    background-color: #09A15C;
+}
+
+.btn-3{
+    background-color: #FFC239;
+}
+
+
+.vision-bio{
+    padding: 24px 24px 48px 24px;
+    border: 1px solid #eee3e3;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-origin: content-box;
+}
+
+.vision-bio-description{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1e1e;
+}
+/* vision section end here */
+
+
+
+
+
+
+
+
+/* main section end here */
 
 /* body end here */

@@ -181,6 +181,8 @@ nav ul li{
 
 
 
+
+
 /* vision section start here */
 
 .vision-container{
@@ -490,7 +492,23 @@ input[type="email"]::placeholder{
 
 
 
+/* footer section start here */
 
+.footer-container{
+    margin-top: 80px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.footer-container > h3{
+    margin-bottom: 64px;
+}
+
+.footer-container .social-media > img{
+    margin-left: 15px;
+}
+
+/* footer section end here */
 
 
 

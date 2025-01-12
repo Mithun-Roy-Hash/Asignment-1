@@ -44,18 +44,15 @@
     color: #292929;
 }
 
-.news-title{
-    font-weight: bold;
-    font-size: 32px;
-}
 
 .btn{
     font-weight: 600px;
     font-size: 18px;
     padding: 17px 34px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #ffffff;
     background-color: #006A50;
+    border: none;
 }
 /* some class which used a lot of time in html, this class style end here */
 
@@ -307,6 +304,64 @@ table, tr, th, td{
 
 
 /* opinion section end here */
+
+
+
+
+
+
+
+/* news section start here */
+
+.news-container{
+    margin-bottom: 80px;
+}
+
+.news-container > p{
+    margin: 24px 0 32px 0;
+}
+
+.news-common-style{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2b2a2a;
+}
+
+
+.news-sub-container{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    margin-bottom: 24px;
+    background-color: #f1ecec;
+    border-radius: 24px;
+
+}
+
+.news-sub-container > img{
+    border-radius: 24px;
+}
+
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #222121;
+    margin-bottom: 12px;
+}
+
+.news-sub-container-details > img{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+.news-sub-container-details .position{
+    margin: 12px 0 32px 0;
+}
+
+/* news section end here */
+
 
 
 

@@ -1,0 +1,160 @@
+
+
+/* google fonts */
+
+
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #0E0E0E; 
+}
+
+
+
+
+
+
+
+/* some class which used a lot of time in html , this class style start here */
+
+.all-page-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.all-page-sub-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.all-description{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.opinion-title{
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.opinion-description{
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+.opinion-option{
+    font-weight: 500px;
+    font-size: 16px;
+   
+}
+
+
+.btn{
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 17px 34px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #006A50;
+}
+/* some class which used a lot of time in html, this class style end here */
+
+
+
+
+
+
+/* body start here */
+
+body{
+    max-width: 1280px;
+    margin: 0 160px 50px 160px;
+}
+
+/* navbar start here */
+
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.nav-title{
+    margin-top: 31px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+.nav-btn{
+    font-weight: 600px;
+    font-size: 18px;
+    color: #006A50;
+    padding: 15px 30px;
+    margin-top: 24px;       
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+
+.nav-container{
+    display: flex;
+    gap: 64px;
+    margin: 50px 0 80px 0;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+
+.nav-sub-container{
+    margin: 117px 0 117px 60px;        
+}
+
+.nav-sub-title{
+    font-weight: 500px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    opacity: 0.4;
+}
+
+
+.nav-description{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.nav-btn-2{
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #006A50;
+    border: none;
+}
+
+#shaheed-minar{
+    margin: 80px 60px 80px 0;
+}
+
+
+/* navbar end here */
+
+
+/* body end here */
